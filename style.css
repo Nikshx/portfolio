@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    
+    padding: 20px;
+    background-size: cover;
+
+}
+body.home{
+    background-color:#EEEDEB;
+}
+header {
+    text-align: center;
+    margin-bottom:40px ;
+
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #000;
+}
+
+#home {
+    color: #222;
+    text-align: center;
+    margin:100px;
+}
+.home-image {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+.first{
+    display: inline-block;
+    text-align: center;
+}
+
+section h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: medium;
+    text-align: center;
+}
+
+#about {
+    color: #222;
+    text-align: center;
+    margin-top: 100px; 
+    
+}
+.about h2{
+    margin-bottom: 20px;
+}
+.about h3{
+    margin-top: 20px;
+    color: #222;
+}
+
+.about-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.about-description {
+   max-width: 500px;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    
+}
+.about-description p{
+    color:#222;
+    margin: 20px 0;
+    padding: 20px;
+    
+
+}
+
+#contact{
+    display: flex;
+    padding: 200px;
+    justify-content: end;
+    padding-right: 0%;
+    
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    height: 400px;
+    color: white;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 10px 0px;
+    
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 140px ;
+    color: #222;
+    white-space: nowrap;
+    margin-top: -120px;
+    padding-left:20px ;
+    
+}
+
+
+.contact-right  table{
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}
+.contact-right .head{
+    padding-bottom: 20px;
+    margin-right: 111px;
+}
+
+
+.contact-right a{
+    text-decoration: none;
+}
+
+body.contact{
+    background: azure;
+}
+
+
+
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body.skills{
+    background-color:#C7C8CC;
+}
+
+#skills{
+    background-color: #EEEDEB;
+    padding: 20px;
+    text-align: center;
+    margin: 170px auto;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    width: 500px;
+    font-family:'Courier New', Courier, monospace;
+    
+
+}
+#skills h2{
+    text-align: center;
+    color: #000;
+}
+#skills h3{
+    margin: 5px;
+}
+#skills ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+}
+
+#skills li{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+body.resume{
+    background-color: #EAEAEA;
+}
+
+#resume h2{
+    padding: 200px;
+    color: #222;
+    font-size: 20px;
+    
+}
+
+#resume a{
+    color: #222;
+}
+
+
+footer{
+    background-color: #EEEDEB;
+    text-align: center;
+    border-top: 1px solid #222;
+}
+
+footer p{
+    display: flex;
+    justify-content: space-between;
+    color: #222;
+    margin: 50px;
+}
+footer a{
+    color: #222;
+}
+
